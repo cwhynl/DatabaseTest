@@ -102,6 +102,5 @@ public class writeoutdata {
    @Test
    public void f() {
 	  writedata();
-	 
    }
   }

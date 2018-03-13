@@ -1,4 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.857 s - in TestSuite
+Tests run: 111, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 543.215 s <<< FAILURE! - in TestSuite
+testcase(Sprog.NewTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 7.837 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 9.895 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 5.374 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 5.035 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 5.261 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 6.748 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 6.566 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 5.555 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+
+testcase(Sprog.NewTest)  Time elapsed: 7.632 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Sprog.NewTest.testcase(NewTest.java:13)
+

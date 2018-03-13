@@ -160,9 +160,9 @@ public class mysql_con {
 	
 	public static void main(String[] args) {
 		try {
-//			System.out.println(getData(Update("select failure_time from wp_sell_apply_relation"),
-//					"failure_time"));
-			createData();
+			System.out.println(getData(Update("select failure_time from wp_sell_apply_relation"),
+					"failure_time"));
+//			createData();
 			runscript();
 			
 		} catch (Exception e) {

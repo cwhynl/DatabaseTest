@@ -1,9 +1,5 @@
 package Sprog;
-
-import java.sql.SQLException;
-
 import org.testng.annotations.Test;
-
 public class datatest {
 	
   @Test

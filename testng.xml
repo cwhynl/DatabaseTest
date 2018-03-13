@@ -7,7 +7,7 @@
       </listeners>
   <test name="Test">
     <classes>
-       <class name="Sprog.datatest" /> 
+       <class name="Sprog.NewTest" /> 
        <!-- class name="com.Case.Login -->
        <!-- class name="com.Case.Verilogin -->
     </classes>    

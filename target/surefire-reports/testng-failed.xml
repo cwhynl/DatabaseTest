@@ -7,7 +7,21 @@
   </listeners>
   <test name="Test">
     <classes>
-      <class name="Sprog.datatest"/>
+      <class name="Sprog.NewTest"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Sprog.NewTest">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="testcase" invocation-numbers="0 6 7 8 10 11 18 19 20 21"/>
+          <include name="afterSuite"/>
+          <include name="failDeal"/>
+        </methods>
+      </class> <!-- Sprog.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
